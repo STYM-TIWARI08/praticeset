@@ -23,7 +23,7 @@ body {
     z-index: 2;
     padding: 18px 299px 14px 0px;
     text-align: center;
-   
+
 }
 
 .left,
@@ -202,4 +202,34 @@ body {
 .left,
 .right {
     position: absolute;
+}
+
+.container2 h1 {
+    margin: 7px;
+    text-align: center;
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    font-size: 28px;
+    color: #0f0c6e;
+    
+
+}
+
+.container5 {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin: auto;
+    align-content: center;
+    background-color: #28608a;
+}
+
+.container5 h1 {
+    position: absolute;
+    top: 17px;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
 }
