@@ -213,13 +213,17 @@ body {
     
 
 }
+.contact{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
 
 .container5 {
     position: relative;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     border: 2px solid black;
-    margin: auto;
+    margin:  10px auto;
     align-content: center;
     background-color: #28608a;
 }
