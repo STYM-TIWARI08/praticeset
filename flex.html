@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex </title>
+    <style>
+        :root {
+            --int: #17251d;
+            --cream: #daaa1d;
+            --accent: #ea6547;
+            --green: #2e694c;
+            --muted: #667168;
+            --linear: linear-gradient(to right, rgb(234, 64, 64), rgb(41, 72, 226));
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+            background: var(--int);
+            height: 62px;
+            color: rgb(250, 250, 250);
+            align-items: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+        }
+        h1:hover{
+            color: aqua;
+            cursor: pointer;
+        }
+
+        body {
+            background: var(--linear)
+        }
+
+        .container {
+            padding: 5px 2px;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 60px;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+            background: var(--cream);
+            width: 500px;
+        }
+
+        .img {
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 5px auto;
+            border-radius: 10px;
+            
+        }
+
+        #img1 {
+            background: var(--green);
+
+
+        }
+
+        #img2 {
+            background: var(--muted);
+
+        }
+
+        #img5 {
+            background: red;
+
+        }
+
+        #img7 {
+            background: aqua;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <h1>
+
+                The flex direction property
+            </h1>
+    </dic>
+    </header>
+    <main>
+        <div class="container">
+            <div class="img" id="img2"></div>
+            <div class="img" id="img3"></div>
+            <div class="img" id="img4"></div>
+            <div class="img" id="img5"></div>
+            <div class="img" id="img6"></div>
+            <div class="img" id="img7"></div>
+            <div class="img" id="img8"></div>
+            <div class="img" id="img9"></div>
+            <div class="img" id="img10"></div>
+        </div>
+    </main>
+
+</body>
+
+</html>
