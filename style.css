@@ -210,30 +210,269 @@ body {
     font-family: "Edu VIC WA NT Hand Pre", cursive;
     font-size: 28px;
     color: #0f0c6e;
-    
+
 
 }
-.contact{
+
+.contact {
     margin-bottom: 20px;
     margin-top: 50px;
 }
 
-.container5 {
-    position: relative;
-    height: 400px;
-    width: 400px;
-    border: 2px solid black;
-    margin:  10px auto;
-    align-content: center;
-    background-color: #28608a;
+.contact {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0 4%;
 }
 
-.container5 h1 {
-    position: absolute;
-    top: 17px;
-    left: 50%;
-    margin: 0;
-    transform: translateX(-50%);
+.contact-wrap {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Left: light form card */
+.contact-form-card {
+    flex: 1 1 50%;
+    background: #eef3ee;
+    padding: 40px 36px;
+    color: #1f1f1f;
+}
+
+.contact-form-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 24px;
+}
+
+.contact-form-head h2 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.contact-tag {
+    font-size: 13px;
+    color: #667168;
+}
+
+.field {
+    margin-bottom: 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 13px;
+    color: #556058;
+    margin-bottom: 6px;
+}
+
+.field input {
+    width: 100%;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.field input:focus {
+    outline: 2px solid #0a355c;
+}
+
+.field-submit {
+    width: 100%;
+    margin-top: 8px;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 22px;
+    background: #dc2424;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.field-submit:hover {
+    background: #b81c1c;
+}
+
+/* Right: dark info panel */
+.contact-info {
+    flex: 1 1 50%;
+    background: #0a355c;
+    color: #fff;
+    padding: 48px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-label {
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    color: #8fb4d6;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-info h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.contact-info p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #d7e2ec;
+    margin-bottom: 26px;
+}
+
+.contact-cta {
+    display: inline-block;
+    align-self: flex-start;
+    padding: 12px 26px;
+    background: #dc2424;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contact-cta:hover {
+    background: #b81c1c;
+}
+
+.about {
+    padding: 65px 4%;
     text-align: center;
-    font-family: "Edu VIC WA NT Hand Pre", cursive;
+   
+}
+
+.about-wrap {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.about-wrap h1 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    color: #0f0c6e;
+    margin-bottom: 22px;
+}
+
+.about-wrap p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #ffffff;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.about-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    flex: 1 1 200px;
+    max-width: 220px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.highlight h3 {
+    font-size: 18px;
+    color: #0a355c;
+    margin-bottom: 8px;
+}
+
+.highlight p {
+    font-size: 14px;
+    color: #556058;
+    text-align: center;
+    margin: 0;
+}
+.review {
+    padding: 65px 4%;
+    text-align: center;
+    background-color: #0a355c;
+    color: #fff;
+}
+
+.review-wrap {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.review-wrap h1 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.review-sub {
+    color: #b7cbe0;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    flex: 1 1 280px;
+    max-width: 320px;
+    background: #eef3ee;
+    color: #1f1f1f;
+    padding: 26px 22px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+
+.stars {
+    color: #daaa1d;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.review-text {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.reviewer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #d7ded7;
+    padding-top: 10px;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    font-size: 15px;
+    color: #0a355c;
+}
+
+.reviewer-loc {
+    font-size: 13px;
+    color: #667168;
 }
